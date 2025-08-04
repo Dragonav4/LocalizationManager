@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/LocalizationManager.Web.props" />
+</Project>
