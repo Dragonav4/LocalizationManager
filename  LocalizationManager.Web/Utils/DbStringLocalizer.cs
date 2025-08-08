@@ -100,7 +100,6 @@ public class DbStringLocalizer : IStringLocalizer, IAsyncStringLocalizerr
         _log?.LogInformation("Localization cache invalidated for {Culture}", cultureCode);
     }
 
-    // ======================= SYNC IStringLocalizer =======================
     public IEnumerable<LocalizedString> GetAllStrings(bool includeParentCultures)
     {
         var dict = GetAllAsync(includeParentCultures).GetAwaiter().GetResult();

@@ -30,7 +30,7 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseStaticFiles();
-app.MapControllers(); // если будут контроллеры
+app.MapControllers(); 
 app.MapGet("/", () => "Localization Manager is running");
 
 app.Run();
