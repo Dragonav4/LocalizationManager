@@ -1,7 +1,7 @@
 using System.Net;
 using System.Text.Json;
 
-namespace APBD_s31722_9_APi_2.Exceptions;
+namespace LocalizationManager.Web.Exceptions;
 
 public class ApiExceptionMiddleware
 {
